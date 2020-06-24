@@ -1,0 +1,17 @@
+.hello{
+  color: blue;
+}
+.nuxt-link-active {
+  border-bottom: 2px solid currentColor;
+}
+
+.nuxt-link-exact-active {
+  border-bottom: 1px solid currentColor;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+}

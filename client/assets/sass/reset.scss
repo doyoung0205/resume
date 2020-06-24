@@ -1,0 +1,62 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'NotoSansCJKkr', 'Sans-serif';
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+input,
+select,
+textarea {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	resize: none;
+}
+
+li {
+	list-style: none;
+}
+
+button {
+	font-family: inherit;
+	font-size: 90%;
+	margin: 0;
+	cursor: pointer;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	font-family: 'NotoSansCJKkr', 'Sans-serif';
+}
+
+textarea:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+
+svg, symbol, image, marker, pattern, foreignObject { overflow: hidden }
+svg { width:attr(width); height:attr(height) }
+svg:not(:root) { overflow: hidden; }
